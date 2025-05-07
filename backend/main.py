@@ -11,13 +11,15 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import os
+from dotenv import load_dotenv
 from twilio.rest import Client  # Import Twilio for SMS
 
+load_dotenv()
 # Twilio Credentials (Replace with your actual credentials)
-TWILIO_ACCOUNT_SID = "ACe8a135905ff866de6fc860b9eb0b92f3"
-TWILIO_AUTH_TOKEN = "5608b9ffdbb2a93a9030583d8d29fd05"
-TWILIO_PHONE_NUMBER = "+12183095600"
-RECIPIENT_PHONE_NUMBER = "+917200293241"
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
+RECIPIENT_PHONE_NUMBER = os.getenv("RECIPIENT_PHONE_NUMBER")
 
 fromaddr="priyadharshinipriya1975@gmail.com" 
 toaddr="priyadharshinitcse2021@jerusalemengg.ac.in"
