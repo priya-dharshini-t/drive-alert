@@ -1,0 +1,104 @@
+/* General Container */
+.settings-container {
+    max-width: 700px;
+    margin: 90px auto;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    size: 70px;
+}
+
+/* Title */
+.settings-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Labels */
+.settings-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Dropdowns */
+.settings-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Checkbox */
+.settings-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.settings-checkbox input {
+    margin-right: 8px;
+}
+
+/* Button */
+.settings-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.settings-button:hover {
+    background-color: #0056b3;
+}
+
+/* Light Mode */
+body.light {
+    background:rgb(4, 55, 110);
+    color: black;
+}
+
+/* Dark Mode */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .settings-container {
+    background: #1e1e1e;
+}
+
+body.dark .settings-label,
+body.dark .settings-title {
+    color: white;
+}
+
+body.dark .settings-select {
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark .settings-button {
+    background-color: #444;
+}
+
+body.dark .settings-button:hover {
+    background-color: #666;
+}

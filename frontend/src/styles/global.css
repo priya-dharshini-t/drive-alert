@@ -1,0 +1,37 @@
+/* global.css */
+body {
+    background: linear-gradient(135deg,rgb(26, 5, 5),rgb(21, 10, 6), #fbc2eb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  /* Reusable Box */
+  .auth-card, .box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .btn-google, .button {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-google:hover, .button:hover {
+    background-color: #357ae8;
+  }
+  

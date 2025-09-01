@@ -1,0 +1,119 @@
+/* index.css - Make sure the body and page layout are styled manually */
+body {
+    background: linear-gradient(135deg,rgb(23, 5, 6), #fad0c4, #fbc2eb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .btn-google {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-google:hover {
+    background-color: #357ae8;
+  }
+ 
+  /* Global Styles */
+  body {
+    background-image: url("/public/images/i2.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  } 
+
+/* Centered Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Box Style */
+.box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Buttons */
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4285f4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #357ae8;
+}
+
+/* Divider */
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Signup Link */
+.signup-link {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

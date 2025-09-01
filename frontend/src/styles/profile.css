@@ -1,0 +1,57 @@
+.profile-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid #007bff;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-box {
+    padding: 10px;
+    background:rgb(92, 134, 176);
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds space between buttons */
+  }
+  
+  .edit-btn,
+  .next-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 120px; /* Optional: Ensures buttons are the same width */
+    text-align: center;
+  }
+  
+  .edit-btn:hover,
+  .next-btn:hover {
+    background: #0056b3;
+  }
+  

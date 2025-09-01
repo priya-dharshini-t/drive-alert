@@ -1,0 +1,36 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.home-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.monitor-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.monitor-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.video-feed {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

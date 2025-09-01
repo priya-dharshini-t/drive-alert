@@ -1,0 +1,51 @@
+/* Background styling */
+
+  
+  /* Main Title */
+  .landing-title {
+    font-size: 2.5rem; /* Slightly increased */
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 12px; /* Space between text and icons */
+  }
+  
+  /* Icons (Car and Alert) */
+  .icon {
+    font-size: 2.2rem; /* Adjusted icon size */
+    color: #ffcc00; /* Yellow color */
+  }
+  
+  /* Subtitle */
+  .landing-subtitle {
+    font-size: 1.5rem;
+    color: lime;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+  
+  /* Button */
+  .landing-button {
+    font-size: 1.3rem; /* Slightly increased */
+    font-weight: bold;
+    padding: 16px 32px; /* Made button larger */
+    color: black;
+    background: linear-gradient(to right, #ffcc00, #ff5733); /* Yellow to Red */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .landing-button:hover {
+    transform: scale(1.07); /* Increased hover effect */
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #ff5733, #ffcc00); /* Reversed gradient on hover */
+  }
+  
